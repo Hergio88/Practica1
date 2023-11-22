@@ -1,0 +1,85 @@
+#titulo{
+    border: 5px solid whitesmoke;
+    text-shadow: 2px 2px 4px rgba(72, 16, 202, 0.5) ;
+    color: whitesmoke ;
+    font-size: 32px;
+    font-family: Poppins,sans-serif;
+    border-radius: 10px;
+    background-color: rgba(6, 6, 125, 0.546);
+}
+.formulario{
+  text-align: center;
+}
+
+/* estilos.css *transform: scale(0.3)*/
+.imagenRed{
+  width: 100px;
+  height:100px; 
+  border: 5px solid whitesmoke;
+}
+
+/* estilos.css */
+.imagen-reducida {
+    width: 300px;
+    height: auto; /* Esto mantiene la proporción original de la imagen */
+  }
+
+body{
+    background-image: url("../Imagenes/Fondos6.jpg");
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen en su lugar al desplazarse */
+    filter: grayscale(12%); /* Ajusta el valor para controlar la intensidad de la atenuación */ 
+}
+
+p {
+    font-family: "Verdana", sans-serif;
+    font-size: 18px;
+    color: black;
+    text-align: left;
+  }
+.recuadro { 
+    background-color: rgba(6, 6, 125, 0.546); /* Cambia el color de fondo a tu elección */
+    color: white;
+    padding: 15px; /* Añade espaciado interno para separar el texto del borde */
+    border-radius: 30px solid #dcdcdc; /* Controla el redondeo de las esquinas */
+    width: 1000px; /* Ajusta el ancho del cuadro a tu elección */
+    margin: 0 auto; /* Centra el cuadro en la página horizontalmente */
+    border-radius: 10px;
+    font-family: "Verdana", sans-serif;
+    font-size: 18px;
+}
+
+h2 {
+	font-family: 'Arima Madurai', cursive;
+	color: black;
+	font-size: 2rem;
+	position: relative;
+	z-index: 3;
+}
+
+h1{
+  color: whitesmoke;
+}
+th, td{
+  color: whitesmoke;
+}
+ .table{
+  background-color: rgba(6, 6, 125, 0.546); /* Cambia el color de fondo a tu elección */
+  color: white;
+  padding: 20px; /* Añade espaciado interno para separar el texto del borde */
+  width: 1000px; /* Ajusta el ancho del cuadro a tu elección */
+  margin: 0 auto; /* Centra el cuadro en la página horizontalmente */
+  font-family: "Verdana", sans-serif;
+  font-size: 18px;
+  border-collapse: separate;
+  border-spacing: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+  -moz-border-radius: 20px;
+  padding: 2px;
+  border-collapse: separate
+ }
+ .sub{
+  text-decoration: underline;
+ }
